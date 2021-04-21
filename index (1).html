@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style (1).css">
+  <title> Diets By Budget - Home </title>
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <link rel="icon" type=image/png href="https://image.flaticon.com/icons/png/512/121/121731.png">
+</head>
+<body style="background-color: #2590f5;">
+  <section id="title-text">
+    <h1> Diet By Budget </h1>
+    <br>
+    <h4 style="color: white;"> <i> Use the side navigation bar to find meals plans for your daily budget </i> </h4>
+    <br>
+    <br>
+    <a href="mailto:kruzsk25@g.eips.ca, alextk25@g.eips.ca" align="center"> Suggestions </a>
+  </section>
+  <div id="sideNav">
+    <nav>
+        <ul>
+            <li> <a href="index.html">  Home </a> </li>
+            <li> <a href="first.html">  3-5 Dollars/ Day </a> </li>
+            <li> <a href="second.html"> 5-8 Dollars/ day </a></li>
+            <li> <a href="third.html"> 8-12 Dollars/day </a> </li>
+            <li> <a href="fourth.html"> 12-15 Dollars/day </a> </li>
+            <li> <a href="fifth.html"> 15-20 Dollars/day</a> </li>
+            <li> <a href="sixth.html"> 20-30 Dollars/day </a></li>
+        </ul>
+    </nav>
+ </div>
+ <div id="menubtn">
+   <img src="file:///home/chronos/u-080e24297e60d1a82df42d3c980ddbcdb6c56e5f/MyFiles/Downloads/why_are_you_downloading_this.png" id="menu" height="30px">
+ </div>
+ <script>
+    var menubtn = document.getElementById("menubtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+  
+  
+   
+ menubtn.onclick = function (){
+    if (sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+    }
+    else{
+        sideNav.style.right = "-250px";
+    }
+ }
+ </script>
+</body>
